@@ -21,7 +21,7 @@ body{
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
         url(images/bg.jpg);
-    background-position: center bottom;
+    background-position: center left;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -91,7 +91,7 @@ body{
 .header-content p {
     font-size: 16px;
     color: #C5C5C5;
-    padding: 0px 250 px;
+    padding: 0px 250px;
     margin-bottom: 25px;
 }
 
@@ -201,7 +201,7 @@ body{
 }
 
 .services-1 img {
-    width: 50%;
+    width: 25%;
     margin-bottom: 15px;
 }
 
@@ -370,7 +370,7 @@ p {
         display: initial;
     }
 
-    .nav .navbar {
+    .menu .navbar {
         position: absolute;
         top: 100%;
         left: 0;
@@ -383,20 +383,6 @@ p {
         width: 100%;
     }
 
-    .logo {
-        display: none
-    }
-
-    .logocoffee {
-        width: 80%;
-        display: inline-block;
-        flex-direction: column;
-    }
-    
-    .header-content h2 {
-        font-size: 70%;
-    }
-
     #menu:checked ~ .navbar {
         display: initial;
     }
@@ -407,8 +393,6 @@ p {
 
     .header-content {
         padding: 100px 30px;
-        position: relative;
-        flex-direction: calc(1);
     }
 
     .header-content p {
