@@ -309,10 +309,52 @@ p {
     border: none;
     color: white;
     font-size: 20px;
-    /* pointer-events: none; */
     cursor: pointer;
   
   }
+
+  /* Carta */
+
+.desa-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E1E2E6;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.desa-box .foto {
+    width: 280px;
+    margin: 20px;
+}
+
+.desa-box .foto-image {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.desa-box .foto-image img:hover {
+    transform: scale(1.1);
+    transition: transform .4s ease-in-out;
+}
+
+.desa-box .foto-body {
+    padding: 20px;
+    color: #414247;
+    border: 3px solid #E1E2E6;
+}
+
+.desa-box .foto-body h3 {
+    padding: 10px 0;
+    
+}
+
+.desa-box .foto-body .cash {
+    font-size: 20px;
+    margin-left: 60px;
+}
 
 .blog {
     padding: 100px 0;
@@ -358,6 +400,27 @@ p {
     color: #C5C5C5;
     display: block;
     margin-bottom: 15px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.whatsapp-button img {
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
 @media(max-width:990px) {
